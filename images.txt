@@ -1,2 +1,1 @@
 redis:7.0
-mathworks/matlab:r2022b
