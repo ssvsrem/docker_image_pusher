@@ -1,9 +1,9 @@
 redis:7.0
 mathworks/matlab:r2022b
 mathworks/matlab-runtime-deps
-rocketmqinc/rocketmq
-styletang/rocketmq-console-ng
+rocketmqinc/rocketmq:latest
+styletang/rocketmq-console-ng:latest
 redis:4.0
 nacos/nacos-server:latest
 mysql:8.0.27
-nginx
+nginx:latest 
