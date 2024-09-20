@@ -51,6 +51,17 @@ ALIYUN_NAME_SPACE,ALIYUN_REGISTRY_USER，ALIYUN_REGISTRY_PASSWORD，ALIYUN_REGIS
 回到阿里云，镜像仓库，点击任意镜像，可查看镜像状态。(可以改成公开，拉取镜像免登录)
 ![](doc/开始使用.png)
 
+需要先登录docker
+```
+docker login --username=阿里用户名 registry.cn-hangzhou.aliyuncs.com
+```
+登录报错
+** Message: 16:22:12.798: Remote error from secret service: org.freedesktop.Secret.Error.IsLocked: Cannot create an item in a locked collection
+Error saving credentials: error storing credentials - err: exit status 1, out: `Cannot create an item in a locked collection`
+安装以下工具：
+```
+sudo apt install gnupg2 pass
+```
 在国内服务器pull镜像, 例如：<br>
 ```
 docker pull registry.cn-hangzhou.aliyuncs.com/shrimp-images/alpine
