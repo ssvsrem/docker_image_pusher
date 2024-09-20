@@ -7,3 +7,4 @@ redis:4.0
 nacos/nacos-server:latest
 mysql:8.0.27
 nginx:latest 
+portainer/portainer:latest
