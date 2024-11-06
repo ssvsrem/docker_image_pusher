@@ -8,4 +8,4 @@ nacos/nacos-server:latest
 mysql:8.0.27
 nginx:latest 
 portainer/portainer:latest
-nacos/nacos-server:2.2.0
+nacos/nacos-server:v2.2.0
