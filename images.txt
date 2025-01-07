@@ -8,4 +8,5 @@ nacos/nacos-server:latest
 mysql:8.0.27
 nginx:latest 
 portainer/portainer:latest
-easysoft/zentao
+# 禅道
+easysoft/zentao:18.10
