@@ -11,4 +11,4 @@ portainer/portainer:latest
 # 禅道
 easysoft/zentao:18.10
 # nginx+modsecurity
-owasp/modsecurity-nginx:latest
+owasp/modsecurity-nginx
